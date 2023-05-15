@@ -6,10 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<CFRelationContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("Connection"))); // Connection String deðerini appsettings.json dan okuyorum.
+builder.Services.AddDbContext<CFRelationContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("Connection"))); // Connection String deï¿½erini appsettings.json dan okuyorum.
 
 
-var app = builder.Build(); // Uygulamanýn derlendiði yer
+var app = builder.Build(); // Uygulamanï¿½n derlendiï¿½i yer
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
