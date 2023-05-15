@@ -3,8 +3,8 @@
 namespace CodeFirst_Relation_Live.Models
 {
     public class Order
-    {
-        [Key]
+    { 
+        [Key]//Primary Key
         public int OrderID { get; set; }
 
         //Besleyen tablolar...

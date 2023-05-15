@@ -4,7 +4,7 @@ namespace CodeFirst_Relation_Live.Models
 {
     public class Product
     {
-        [Key]
+        [Key] //Primary Key
         public int ProductID { get; set; }
 
         public string ProductName { get; set; }

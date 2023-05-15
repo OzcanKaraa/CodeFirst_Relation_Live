@@ -4,7 +4,7 @@ namespace CodeFirst_Relation_Live.Models
 {
     public class Personel
     {
-        [Key]
+        [Key //Primary Key
         public int PersonelID { get; set; }
 
         public string Name { get; set; }
